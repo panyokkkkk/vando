@@ -6,12 +6,7 @@
 }
 
 body{
-    background:linear-gradient(
-        135deg,
-        #0f172a,
-        #1e293b,
-        #334155
-    );
+    background:#0f172a;
 
     color:white;
     min-height:100vh;
@@ -24,7 +19,7 @@ body::before{
     height:500px;
     background:#38bdf8;
     filter:blur(250px);
-    opacity:.20;
+    opacity:.06;
     top:-100px;
     right:-100px;
     z-index:-1;
@@ -37,7 +32,7 @@ body::after{
     height:400px;
     background:#0ea5e9;
     filter:blur(220px);
-    opacity:.18;
+    opacity:.05;
     bottom:-100px;
     left:-100px;
     z-index:-1;
@@ -107,7 +102,7 @@ h1{
 }
 
 .card{
-    background:rgba(255,255,255,.08);
+    background:rgba(255,255,255,.05);
     backdrop-filter:blur(12px);
 
     padding:25px;
@@ -223,7 +218,6 @@ footer{
     }
 
     .subtitle{
-        font-size:.9rem;
+    color:#cbd5e1;
     }
-
     }
