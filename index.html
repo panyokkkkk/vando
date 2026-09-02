@@ -129,8 +129,6 @@ footer{
     Web Development dan Teknologi Informasi
 </p>
 
-    <a href="#cv" class="btn">Lihat CV</a>
-
 </header>
 
 <div class="container">
@@ -194,21 +192,6 @@ footer{
         </div>
     </section>
 
-    <section class="section" id="cv">
-        <div class="card">
-            <h2>Curriculum Vitae</h2>
-
-            <p><strong>Nama:</strong> Elvando</p>
-            <p><strong>Email:</strong> panyokkkkk@gmail.com</p>
-            <p><strong>Alamat:</strong> Sambas, Kalimantan Barat</p>
-
-            <br>
-
-            <button class="btn" onclick="downloadCV()">
-                Download CV
-            </button>
-        </div>
-    </section>
 
     <section class="section">
         <div class="card">
@@ -224,51 +207,3 @@ footer{
 <footer>
     © 2026 Elvando | Portfolio Website
 </footer>
-
-<script>
-function downloadCV(){
-
-const cv = `
-CURRICULUM VITAE
-
-ELVANDO
-
-Email : panyokkkkk@gmail.com
-Alamat : Sambas, Kalimantan Barat
-
-PROFIL
-Saya adalah siswa SMKN 1 Semparuk yang memiliki minat pada
-pengembangan web dan teknologi informasi.
-Saat ini saya fokus mempelajari HTML, CSS, JavaScript, PHP serta Git.
-
-PENDIDIKAN
-2015 - 2021
-SD Negeri 42 Serindang
-
-2021 - 2024
-MTs Al-Hikmah Sidang
-
-2024 - 2027
-SMKN 1 Semparuk
-
-KEAHLIAN
-- HTML5
-- CSS3
-- JavaScript
-- PHP
-- Git
-
-HOBI
-- Badminton
-`;
-
-const blob = new Blob([cv], {type:'text/plain'});
-const a = document.createElement('a');
-a.href = URL.createObjectURL(blob);
-a.download = 'CV_Elvando.txt';
-a.click();
-}
-</script>
-
-</body>
-  </html>
