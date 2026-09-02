@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#101c14;
+    background:#0f172a;
     color:white;
     min-height:100vh;
 }
@@ -16,9 +16,9 @@ body::before{
     position:fixed;
     width:500px;
     height:500px;
-    background:#4ade80;
+    background:#22c55e;
     filter:blur(250px);
-    opacity:.06;
+    opacity:.04;
     top:-100px;
     right:-100px;
     z-index:-1;
@@ -29,9 +29,9 @@ body::after{
     position:fixed;
     width:400px;
     height:400px;
-    background:#16a34a;
+    background:#22c55e;
     filter:blur(220px);
-    opacity:.05;
+    opacity:.03;
     bottom:-100px;
     left:-100px;
     z-index:-1;
@@ -149,7 +149,7 @@ h1{
 }
 
 .skill{
-    background:#16a34a;
+    background:#2563eb;
 
     padding:10px 15px;
 
@@ -169,7 +169,7 @@ h1{
 }
 
 .social-btn{
-    background:#16a34a;
+    background:#2563eb;
     color:white;
     text-decoration:none;
 
@@ -181,7 +181,7 @@ h1{
 
 .social-btn:hover{
     transform:translateY(-3px);
-    box-shadow:0 0 20px rgba(74,222,128,.25);
+    box-shadow:0 0 20px rgba(37,99,235,.35);
     text-decoration:none;
 }
 
