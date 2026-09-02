@@ -167,6 +167,28 @@ h1{
 .skill:hover{
     transform:scale(1.08);
 }
+.social-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.social-btn{
+    background:#0ea5e9;
+    color:white;
+    text-decoration:none;
+
+    padding:12px 18px;
+    border-radius:10px;
+
+    transition:.3s ease;
+}
+
+.social-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px rgba(56,189,248,.4);
+    text-decoration:none;
+        }
 
 .timeline div{
     margin-bottom:20px;
